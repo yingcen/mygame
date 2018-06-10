@@ -1,4 +1,4 @@
-/*#include "mw1.h"
+#include "mw1.h"
 #include "ui_mainwindow.h"
 #include "icon.h"
 
@@ -51,4 +51,4 @@ void MW1::keyPressEvent(QKeyEvent *e)
          this->_game.handlePlayerMove(2,1);
     }
     this->repaint();
-}*/
+}

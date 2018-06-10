@@ -7,7 +7,10 @@ class bullet:public RPGObj
 public:
     bullet();
     ~bullet();
-    void move(int direction,int step=1);
+    void move(int direction);
+    //void outmove();
+/*private:
+    int dirc;*/
     //direction =1,2,3,4 for 上下左右
 };
 
